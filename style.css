@@ -1,0 +1,22 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff0f5;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+.container {
+  padding: 20px;
+}
+h1 {
+  color: #e75480;
+}
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
